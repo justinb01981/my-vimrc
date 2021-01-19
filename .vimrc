@@ -4,5 +4,8 @@ set smarttab!
 syntax on
 set number
 set shiftwidth=4
-map [15~ :bn
+set hlsearch
+map [15~ :bp
+map [18~ :bn
+map [17~ :buffers
 
