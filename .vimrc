@@ -12,9 +12,14 @@ set ruler
 set shiftwidth=4
 set ignorecase
 set hlsearch
-map [15~ :bp
-map [18~ :bn
-map [17~ :buffers
+
+map <F2> <Esc>:buffers <CR>
+map <F3> <Esc>:bprev <CR>
+map <F4> <Esc>:bnext <CR>
+map <F5> <Esc>:bd <CR>
+" map [15~ :bp
+" map [18~ :bn
+" map [17~ :buffers
 
 
 " longer history
@@ -27,11 +32,7 @@ nnoremap ` '
 " allow switching between buffers without writing to disk
 set hidden
 
-map <F2> <Esc>:tabnew <CR>
-map <F3> <Esc>:bprev <CR>
-map <F4> <Esc>:bnext <CR>
-map <F5> <Esc>:buffers <CR>
-map <F6> <Esc>:bd <CR>
+
 
 " on the mac, its different... see help guifont
 set guifont=Droid\ Sans\ Mono:h9
