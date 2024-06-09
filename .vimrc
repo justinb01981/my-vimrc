@@ -6,7 +6,7 @@ set nowrap
 set smarttab!
 set visualbell
 syntax enable
-colorscheme kohler
+colorscheme koehler
 set number
 set ruler
 set shiftwidth=4
